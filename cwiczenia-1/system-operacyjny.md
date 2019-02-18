@@ -21,6 +21,11 @@ Konfiguracja połączenia sieciowego
 | DNS 1 | 10.10.0.8 |  |
 | DNS 2 | 10.10.0.4 |  |
 
+Użyte komendy:
+-ifconfig
+-nmcli
+-ip addr show
+
 Schemat sieci
 -------------
 
