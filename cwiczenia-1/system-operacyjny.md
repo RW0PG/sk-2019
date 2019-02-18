@@ -4,7 +4,7 @@ System operacyjny w środowisku sieciowym
 Charakterystyka systemu operacyjnego
 ------------------------------------
 
-| Charakterystyka | wartość | komentarzu |
+| Charakterystyka | wartość | komentarz |
 | ------------- |:-------------:| -----:|
 | nazwa      | linux | Linux Mint 19.1 Cinnamon|
 | program (parametry sieci)      | |  |
@@ -13,7 +13,7 @@ Charakterystyka systemu operacyjnego
 Konfiguracja połączenia sieciowego
 ----------------------------------
 
-| Parametr | wartość | komentarzu |
+| Parametr | wartość | komentarz |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
 | Maska podsieci      | 255.255.255.0  |  |
