@@ -6,7 +6,7 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | ubuntu 14.04 LTS |
+| nazwa      | linux | Linux Mint 19.1 Cinnamon|
 | program (parametry sieci)      | |  |
 
 
@@ -15,11 +15,11 @@ Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
+| Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
 | Maska podsieci      |  |  |
-| Brama      |  |  |
-| DNS 1      |  |  |
-| DNS 2      |  |  |
+| Brama      | 10.0.2.2 |  |
+| DNS 1      | 10.10.0.8 |  |
+| DNS 2      | 10.10.0.4 |  |
 
 Schemat sieci
 -------------
@@ -31,3 +31,4 @@ aby załączyć obrazek
 
 ![alt schemat](images/my-network-schema.png)
 ```
+
