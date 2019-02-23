@@ -4,7 +4,7 @@ System operacyjny w środowisku sieciowym
 Charakterystyka systemu operacyjnego
 ------------------------------------
 
-| Charakterystyka | wartość |       komentarz     |
+| Charakterystyka | wartość | komentarz |
 | ------------- |:-------------:| -----:|
 | nazwa      | linux | Linux Mint 19.1 Cinnamon|
 | program (parametry sieci)      | |  |
