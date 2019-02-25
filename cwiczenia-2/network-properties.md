@@ -58,10 +58,10 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
+| IP - address  | 10.0.2.5.4 | |
 | MASKA  |  | |
 |   |  | |
-| PC 2  |  | |
+| PC 2  | 10.0.2.5.5 | |
 | IP - address  |  | |
 | MASKA  |  | |
 
