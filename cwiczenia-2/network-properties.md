@@ -22,7 +22,7 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-nmcli; ifup/down eno0s3; ip a
+nmcli; ifup/down eno0s3; ip a, systemctl stop firewalld
 ```
 
 Efekt
