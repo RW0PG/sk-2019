@@ -13,7 +13,7 @@ Wejściowe parametry sieci
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
 | IP - address  | 127.0.0.1 | |
-| MASKA  |	255.255.255.0 | |
+| MASKA  |	10.0.2.15.4/24 | |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | | |
