@@ -35,12 +35,12 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 10.0.2.15.4/24 | |
-| MASKA  | 10.0.2.255 | |
+| IP - address  |  | |
+| MASKA  |  | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | 172.16.100.100 | |
-| MASKA  | 255.255.0.0 | |
+| IP - address  |  | |
+| MASKA  | | |
 
 Weryfikacja połączenia
 
@@ -58,10 +58,10 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 10.0.2.5.4 | |
-| MASKA  |  | |
+| IP - address  | | |
+| MASKA  | | |
 |   |  | |
-| PC 2  | 10.0.2.5.5 | |
+| PC 2  || |
 | IP - address  |  | |
 | MASKA  |  | |
 
