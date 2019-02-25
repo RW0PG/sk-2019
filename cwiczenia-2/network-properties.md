@@ -12,8 +12,8 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  |10.0.2.15.4/24 | |
+| MASKA  |	255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | | |
@@ -22,11 +22,11 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
+nmcli; ifup/down eno0s3; ip a
 ```
 
 Efekt
-```
+Karta sieciowa jest aktywna, nastąpiło połączenie. 
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -88,4 +88,4 @@ Warto wiedzieć
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
 
-przydatne polecenia: nmcli; ifup/down eno0s3; ip a
+przydatne polecenia: 
