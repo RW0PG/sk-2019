@@ -35,12 +35,13 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 192.168.10.10 | |
+| MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |  | |
-| MASKA  | | |
+| IP - address  | 172.16.100.100 | |
+| MASKA  | 255.255.0.0 | |
+
 
 Weryfikacja połączenia
 
