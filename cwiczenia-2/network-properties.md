@@ -104,6 +104,6 @@ curl -X POST -d '{"last_message_id":-1}' http://{ip_address}:8888/messages | pyt
 | DOWN -> Wyłączenie interfejsu sieciowego|ifdown enp0s3 | |
 | Sprawdzenie obecnych parametrów |nmcli device show | |
 | lista wszystkich interfejsów |ip a | |
-| Które interfejsy jakie porty słuchają | netstats | |
+| Które interfejsy jakie porty słuchają | netstat | |
 
-przydatne polecenia: 
+
