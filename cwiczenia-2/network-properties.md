@@ -82,11 +82,11 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
+| Lokalizacja pliku z konfiguracją sieci| cat /etc/resolv.conf  | |
 | UP -> Włączenie interfejsu sieciowego|ifup enp0s3 | |
 | DOWN -> Wyłączenie interfejsu sieciowego|ifdown enp0s3 | |
 | Sprawdzenie obecnych parametrów |nmcli device show | |
 | lista wszystkich interfejsów |ip a | |
-| Które interfejsy jakie porty słuchają | | |
+| Które interfejsy jakie porty słuchają | netstats | |
 
 przydatne polecenia: 
