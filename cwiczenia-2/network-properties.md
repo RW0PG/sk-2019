@@ -91,13 +91,13 @@ python httpchat.py
 
 czat:
 wysłanie wiadomości:
-
+```
 curl -X POST -d '{"text": "Hello World"}' http://{ip_address}:8888
-
+```
 pobranie wiadomości:
-
+```
 curl -X POST -d '{"last_message_id":-1}' http://{ip_address}:8888/messages | python -m json.tool
-
+```
 -------------------------
 
 | Parametr | wartość | komentarz(opcionalny) |
