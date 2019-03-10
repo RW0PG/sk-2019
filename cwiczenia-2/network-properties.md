@@ -11,9 +11,9 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  | 10.0.2.14 | |
-| MASKA  |	10.0.2.15.4/24 | |
+|   PC 1 |  centOS
+| IP - address  | 10.0.2.15/24 | |
+| MASKA  |	10.0.2.0/24 | |
 |   |  | |
 | PC 2  | 10.0.2.15  | |
 | IP - address  | | |
@@ -81,10 +81,10 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
+| Lokalizacja pliku z konfiguracją sieci|ip a | |
+| UP -> Włączenie interfejsu sieciowego|ifup enp0s3 | |
+| DOWN -> Wyłączenie interfejsu sieciowego|ifdown enp0s3 | |
+| Sprawdzenie obecnych parametrów |nmcli | |
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
 
