@@ -11,13 +11,13 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  centOS
-| IP - address  | 10.0.2.15/24 | |
-| MASKA  |	10.0.2.0/24 | |
+| PC 1  | centOS  | |
+| IP - address  | 192.168.56.101 | |
+| MASKA  |	/24 | |
 |   |  | |
-| PC 2  | 10.0.2.15  | |
-| IP - address  | | |
-| MASKA  | | |
+| PC 2  | Debian  | |
+| IP - address  | 10.0.2.15| |
+| MASKA  | /24 | |
 
 Weryfikacja połączenia
 
