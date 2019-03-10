@@ -23,6 +23,7 @@ Weryfikacja połączenia
 
 Polecenie
 ping 192.168.56.106
+
 ping 192.168.56.107
 ```
 
@@ -30,7 +31,7 @@ Efekt
 64 bytes from 192.168.56.106: icmp_seq=1 ttl = 64 time = 0.243 ms
 64 bytes from 192.168.56.107: icmp_seq=1 ttl = 64 time = 0.157 ms
 
-Obie karty sieciowe działają poprawnie
+W moim wypadku dopóki nie ustawiłem host-only w VB, nie chciało działać. Obie karty sieciowe działają poprawnie
 ```
 
 Statyczna konfiguracja parametrów połączenia
