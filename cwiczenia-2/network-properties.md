@@ -96,6 +96,7 @@ pobranie wiadomości:
 curl -X POST -d '{"last_message_id":-1}' http://{ip_address}:8888/messages | python -m json.tool
 
 -------------------------
+
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 | Lokalizacja pliku z konfiguracją sieci| cat /etc/resolv.conf  | |
