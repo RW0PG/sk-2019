@@ -79,10 +79,18 @@ Efekt
 Warto wiedzieć
 --------------
 
+zainstalowanie gita oraz repozytorium czatu:
+
 su - > apt update -> apt install git
 git clone https://github.com/jkanclerz/http-chat
 cd /http-chat/server
 python httpchat.py
+
+czat:
+wysłanie wiadomości:
+curl -X POST -d '{"text": "Hello World"}' http://{ip_address}:8888
+pobranie wiadomości:
+curl -X POST -d '{"last_message_id":-1}' http://{ip_address}:8888/messages | python -m json.tool
 
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
