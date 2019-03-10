@@ -12,21 +12,25 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 | PC 1  | centOS  | |
-| IP - address  | 192.168.56.102 | |
+| IP - address  | 192.168.56.106 | |
 | MASKA  |	/24 | |
 |   |  | |
 | PC 2  | Debian  | |
-| IP - address  | 192.168.56.103| |
+| IP - address  | 192.168.56.107| |
 | MASKA  | /24 | |
 
 Weryfikacja połączenia
 
 Polecenie
-nmcli; ifup/down eno0s3; ip a, systemctl stop firewalld
+ping 192.168.56.106
+ping 192.168.56.107
 ```
 
 Efekt
-Karta sieciowa jest aktywna, nastąpiło połączenie. 
+64 bytes from 192.168.56.106: icmp_seq=1 ttl = 64 time = 0.243 ms
+64 bytes from 192.168.56.107: icmp_seq=1 ttl = 64 time = 0.157 ms
+
+Obie karty sieciowe działają poprawnie
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -46,7 +50,6 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
 ```
 
 Efekt
