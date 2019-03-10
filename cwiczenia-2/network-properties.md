@@ -85,7 +85,7 @@ Warto wiedzieć
 | Lokalizacja pliku z konfiguracją sieci| | |
 | UP -> Włączenie interfejsu sieciowego|ifup enp0s3 | |
 | DOWN -> Wyłączenie interfejsu sieciowego|ifdown enp0s3 | |
-| Sprawdzenie obecnych parametrów |nmcli | |
+| Sprawdzenie obecnych parametrów |nmcli device show | |
 | lista wszystkich interfejsów |ip a | |
 | Które interfejsy jakie porty słuchają | | |
 
