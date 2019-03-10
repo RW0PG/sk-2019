@@ -79,6 +79,11 @@ Efekt
 Warto wiedzieć
 --------------
 
+su - > apt update -> apt install git
+git clone https://github.com/jkanclerz/http-chat
+cd /http-chat/server
+python httpchat.py
+
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
