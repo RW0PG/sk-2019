@@ -81,11 +81,11 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci|ip a | |
+| Lokalizacja pliku z konfiguracją sieci| | |
 | UP -> Włączenie interfejsu sieciowego|ifup enp0s3 | |
 | DOWN -> Wyłączenie interfejsu sieciowego|ifdown enp0s3 | |
 | Sprawdzenie obecnych parametrów |nmcli | |
-| lista wszystkich interfejsów | | |
+| lista wszystkich interfejsów |ip a | |
 | Które interfejsy jakie porty słuchają | | |
 
 przydatne polecenia: 
