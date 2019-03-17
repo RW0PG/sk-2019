@@ -63,8 +63,9 @@ Zadanie
    * Przetestuj połączenie poleceniem ping
    ping dla obu urządzeń (172.16.100.5 oraz .6 działa)
    ![ping](https://i.imgur.com/wXlTPax.png)
-   ![konfiguracja hosta VB](https://i.imgur.com/s0m10hP.png)
    ![konfiguracja hosta w Windowsie](https://i.imgur.com/2DNALAc.png)
+   ![konfiguracja hosta VB](https://i.imgur.com/s0m10hP.png)
+   
 2.
    * Zainstaluj na komputerze ``PC1`` serwer programu ``HTTP CHAT`` dostępnego pod adresem ``https://github.com/jkanclerz/http-chat``
    * Przetestuj komunikację wysyłając wiadomość z komputera ``PC2``, upewnij się czy jest widoczna w konsoli serwera
