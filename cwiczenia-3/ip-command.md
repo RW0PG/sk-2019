@@ -64,15 +64,17 @@ Zadanie
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem, 
    * Przetestuj połączenie poleceniem ping
+   ping dla obu urządzeń (172.16.100.5 oraz .6 działa)
    ![ping](https://i.imgur.com/wXlTPax.png)
 2.
    * Zainstaluj na komputerze ``PC1`` serwer programu ``HTTP CHAT`` dostępnego pod adresem ``https://github.com/jkanclerz/http-chat``
    * Przetestuj komunikację wysyłając wiadomość z komputera ``PC2``, upewnij się czy jest widoczna w konsoli serwera
+   Serwer zainstalowałem w moim wypadku na PC2, jakoś tak wyszło (172.16.100.6)
    ![serwer na dwóch urządzeniach](https://i.imgur.com/CcDMnox.png)
 3.
    * Dodaj do istniejącej sieci komputer ``PC3`` pod kontroloą systemu windows
    * Skonfiguruj ``PC3`` zgodnie z poniższym diagramem
-   * Zweryfkuj połączenie korzystając z przeglądarki, odwiedzając graficzny interfejs ``HTTP CHAT`` pod adresem ``http://172.16.100.10:8888``
+   * Zweryfkuj połączenie korzystając z przeglądarki, odwiedzając graficzny interfejs ``HTTP CHAT`` pod adresem ``http://172.16.100.10:8888`` -> w moim wypadku ``http://172.16.100.6:8888``
    ![czat](https://i.imgur.com/K7zRWvx.png) 
    * Przygotuj dokumentację pisemno obrazkową z wykonania zadania w formacie ``markdown`` zamieść ją w serwisie ``github.com`` obok obocnego tematu ``cwiczenia-3``
 
