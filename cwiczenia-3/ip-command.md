@@ -47,9 +47,15 @@ restart interfejsów debian:
 
 ``sudo systemctl restart networking``
 
+instalowanie pakietów na centosie:
+
 ``sudo yum install``
 
+wyłączenie firewalla na centosie:
+
 ``sudo systemctl stop firewalld``
+
+wysyłanie wiadomości na czacie:
 
 ``curl -X POST -d '{"text": "jd"}' http://{172.16.100.6}:8888/chat``
 
