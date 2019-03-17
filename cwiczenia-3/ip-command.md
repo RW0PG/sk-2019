@@ -34,6 +34,12 @@ ip
 |   ``neigh``   | ``ip neigh add/del/change/show/replace -> ip neigh show to 192.168.0.0/24`` | Polecenie to służy do dodawania nowego wpisu w tablicy sąsiedztwa. Polecenie obok wyświetli tablicę sąsiedztwa dla hostów z podsieci 192.168.0.0/24 |
 |   ``help``    | ``ip help`` | wyswietlenie informacji o poleceniu ip |
 
+
+Przydatne rzeczy:
+restart interfejsów debian:
+``sudo /etc/init.d/networking restart``
+
+
 Zadanie
 ------------
 
