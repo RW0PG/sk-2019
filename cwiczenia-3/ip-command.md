@@ -32,7 +32,7 @@ ip
 |   ``route``   | ``ip route add default via 192.168.0.1`` | Polecenie ip route służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. Składnia polecenia wyświetlana za pomocą polecenia `ip route help` |
 |   ``maddr``   | ``ip maddr add/del/show  | Zarządzanie rozsyłaniem adresów |
 |   ``neigh``   | ``ip neigh add/del/change/show/replace -> ip neigh show to 192.168.0.0/24`` | Polecenie to służy do dodawania nowego wpisu w tablicy sąsiedztwa. Polecenie obok wyświetli tablicę sąsiedztwa dla hostów z podsieci 192.168.0.0/24 |
-|   ``help``    |  | wyswietlenie informacji o poleceniu ip |
+|   ``help``    | ``ip help`` | wyswietlenie informacji o poleceniu ip |
 
 Zadanie
 ------------
