@@ -39,7 +39,7 @@ Przydatne rzeczy:
 -------------------------
 restart interfejsów debian:
 
-``sudo /etc/init.d/networking restart``
+|``sudo /etc/init.d/networking restart``|
 ``sudo /etc/init.d/networking stop``
 ``sudo /etc/init.d/networking start``
 ``sudo systemctl restart networking``
