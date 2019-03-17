@@ -36,8 +36,12 @@ ip
 
 
 Przydatne rzeczy:
+-------------------------
 restart interfejsów debian:
+
 ``sudo /etc/init.d/networking restart``
+
+-------------------------
 
 
 Zadanie
