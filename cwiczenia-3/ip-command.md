@@ -47,6 +47,10 @@ restart interfejsów debian:
 
 ``sudo systemctl restart networking``
 
+``sudo yum install``
+
+``sudo systemctl stop firewalld``
+
 -------------------------
 
 
