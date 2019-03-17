@@ -51,7 +51,7 @@ restart interfejsów debian:
 
 ``sudo systemctl stop firewalld``
 
-``curl -X POST -d '{"text": "jd"}' http://{172.16.100.6}:8888/chat
+``curl -X POST -d '{"text": "jd"}' http://{172.16.100.6}:8888/chat``
 
 -------------------------
 
