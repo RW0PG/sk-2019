@@ -29,7 +29,7 @@ ip
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |   ``link``    |   ``ip link set enp0s3 up/down``             | Polecenie to służy do zmiany ustawień istniejących interfejsów (włącz/wyłącz) |
-|   ``route``   |  | |
+|   ``route``   | ``ip route add default via 192.168.0.1`` | Polecenie ip route służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. Składnia polecenia wyświetlana za pomocą polecenia `ip route help` |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
 |   ``help``    |  | |
