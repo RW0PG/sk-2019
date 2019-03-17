@@ -61,6 +61,7 @@ Zadanie
 2.
    * Zainstaluj na komputerze ``PC1`` serwer programu ``HTTP CHAT`` dostępnego pod adresem ``https://github.com/jkanclerz/http-chat``
    * Przetestuj komunikację wysyłając wiadomość z komputera ``PC2``, upewnij się czy jest widoczna w konsoli serwera
+   ![serwer na dwóch urządzeniach](https://i.imgur.com/CcDMnox.png)
 3.
    * Dodaj do istniejącej sieci komputer ``PC3`` pod kontroloą systemu windows
    * Skonfiguruj ``PC3`` zgodnie z poniższym diagramem
