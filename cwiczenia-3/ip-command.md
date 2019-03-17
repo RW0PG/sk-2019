@@ -58,6 +58,7 @@ Zadanie
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem, 
    * Przetestuj połączenie poleceniem ping
+   ![ping](https://i.imgur.com/wXlTPax.png)
 2.
    * Zainstaluj na komputerze ``PC1`` serwer programu ``HTTP CHAT`` dostępnego pod adresem ``https://github.com/jkanclerz/http-chat``
    * Przetestuj komunikację wysyłając wiadomość z komputera ``PC2``, upewnij się czy jest widoczna w konsoli serwera
