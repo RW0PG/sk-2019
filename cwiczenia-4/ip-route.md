@@ -54,6 +54,8 @@ Zadanie
    
    cat /proc/sys/net/ipv4/ip_forward
    
+   echo 1 > cat /proc/sys/net/ipv4/ip_forward
+   
    
    
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
