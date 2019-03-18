@@ -44,6 +44,12 @@ Zadanie
    
    PC3 -> ping 172.16.100.10
    
+   ip route show
+   
+   ip route add default via 10.0.10.1 dev enp0s3
+   
+   ip route get 10.0.10.15 / 8.8.8.8
+   
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
 2. Przygotuj konfigurację tak aby została załadowana poprawnie po ponownym uruchomieniu systemu
