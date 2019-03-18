@@ -76,7 +76,7 @@ Zadanie do domu
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
    Konfiguracja debiana i centosa:
-   * Utworzenie dwóch sieci nat o odpowiednich adresach - 
+   * Utworzenie dwóch sieci nat o odpowiednich adresach - 172.168.10.0/24 oraz 10.0.10.0/24 oraz ustawienie ich odpowiednio dla PC1 (debian), PC2 (centos) oraz serwera (PC0)
    * ``ip addr add 172.16.100.10/24 dev enp0s3``-> debian
    * ``ip addr add 10.0.10.10/24 dev enp0s3`` -> centos
    * ``ip addr add 172.16.100.1/24 dev enp0s3`` + ``ip addr add 10.0.10.1/24 dev enp0s8``-> serwer debian
