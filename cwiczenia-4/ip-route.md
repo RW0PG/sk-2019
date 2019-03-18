@@ -15,6 +15,8 @@ ip
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
+|               |   ``ip route show``             | |
+|               |   ``ip route get``             | |
 
 
 Zadanie
