@@ -40,4 +40,4 @@ Zadanie do domu
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
   Obraz - > tlk.io/sk-2019
-  
+  root; 123qwe
