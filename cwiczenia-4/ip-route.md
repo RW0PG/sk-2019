@@ -75,5 +75,18 @@ Zadanie do domu
   * debian -> centos lub centos -> debian
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
+   Konfiguracja debiana i centosa:
+   * ``ip addr add 172.16.100.10/24 dev enp0s3``-> debian
+   * ``ip addr add 10.0.10.10/24 dev enp0s3`` -> centos
+   * ``ip addr add 172.16.100.1/24 dev enp0s3`` + ``ip addr add 10.0.10.1/24 dev enp0s8``-> serwer debian
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   
+  
   Obraz - > tlk.io/sk-2019
   root; 123qwe
+
