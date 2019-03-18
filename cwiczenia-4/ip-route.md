@@ -24,8 +24,11 @@ Zadanie
 
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem,
+   
    ip addr add 172.16.100.10/24 dev enp0s3
+   
    ip addr add 10.0.10.10/24 dev enp0s3
+   
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
 2. Przygotuj konfigurację tak aby została załadowana poprawnie po ponownym uruchomieniu systemu
