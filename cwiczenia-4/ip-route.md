@@ -25,6 +25,9 @@ Zadanie
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem,
    
+   tutorial step by step:
+   
+   
    ip addr add 172.16.100.10/24 dev enp0s3
    
    ip addr add 10.0.10.10/24 dev enp0s3
@@ -34,6 +37,8 @@ Zadanie
    ip addr 172.168.100.1/24 dev enp0s3
    
    ping 172.16.100.10
+   
+   ip addr 10.0.10.1/24 dev enp0s8
    
    
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
