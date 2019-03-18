@@ -50,6 +50,12 @@ Zadanie
    
    ip route get 10.0.10.15 / 8.8.8.8
    
+   cat /etc/sysctl.conf
+   
+   cat /proc/sys/net/ipv4/ip_forward
+   
+   
+   
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
 2. Przygotuj konfigurację tak aby została załadowana poprawnie po ponownym uruchomieniu systemu
