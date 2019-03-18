@@ -40,6 +40,9 @@ Zadanie
    
    ip addr 10.0.10.1/24 dev enp0s8
    
+   ip link set enp0s8 up
+   
+   PC3 -> ping 172.16.100.10
    
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
