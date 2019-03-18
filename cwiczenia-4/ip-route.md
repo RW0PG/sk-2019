@@ -31,6 +31,11 @@ Zadanie
    
    3 maszyna na obu NATach - lan1 i lan2
    
+   ip addr 172.168.100.1/24 dev enp0s3
+   
+   ping 172.16.100.10
+   
+   
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
 2. Przygotuj konfigurację tak aby została załadowana poprawnie po ponownym uruchomieniu systemu
