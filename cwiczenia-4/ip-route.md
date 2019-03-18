@@ -84,7 +84,13 @@ Zadanie do domu
    * ``ip link set enp0s8 up`` -> router
    * ``echo 1 > /proc/sys/net/ipv4/ip_forward`` - > włączenie port forwardingu w kernelu debiana
    * ![ip route show](https://i.imgur.com/wEYsprN.png)
+   * ``ip route add default via 10.0.10.1 dev enp0s8``
+   ![jw](https://i.imgur.com/b0ZXZMw.png)
    * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   
    
   
   Obraz - > tlk.io/sk-2019
