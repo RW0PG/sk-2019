@@ -79,12 +79,11 @@ Zadanie do domu
    * Utworzenie dwóch sieci nat o odpowiednich adresach - 172.168.10.0/24 oraz 10.0.10.0/24
    * ``ip addr add 172.16.100.10/24 dev enp0s3``-> centos
    * ``ip addr add 10.0.10.10/24 dev enp0s3`` -> debian
-   * ``ip addr add 172.16.100.1/24 dev enp0s3`` + ``ip addr add 10.0.10.1/24 dev enp0s8``-> serwer debian
-   ![konfiguracja adresów IP](https://i.imgur.com/Yt8YtUC.png)
-
-   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
-   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
-   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * ``ip addr add 172.16.100.1/24 dev enp0s3`` + ``ip addr add 10.0.10.1/24 dev enp0s8``-> router debian
+   ![konfiguracja adresów IP](https://i.imgur.com/YiN5JJJ.png)
+   * ip link set enp0s8 up -> router
+   * włączenie port forwardingu w kernelu debiana -> echo 1 > /proc/sys/net/ipv4/ip_forward
+   * ![ip route show](https://i.imgur.com/wEYsprN.png)
    * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
    
   
