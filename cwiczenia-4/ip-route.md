@@ -39,3 +39,5 @@ Zadanie do domu
   * debian -> centos lub centos -> debian
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
+  Obraz - > tlk.io/sk-2019
+  
