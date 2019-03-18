@@ -29,6 +29,8 @@ Zadanie
    
    ip addr add 10.0.10.10/24 dev enp0s3
    
+   3 maszyna na obu NATach - lan1 i lan2
+   
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
 2. Przygotuj konfigurację tak aby została załadowana poprawnie po ponownym uruchomieniu systemu
