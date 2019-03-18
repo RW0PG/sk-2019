@@ -86,7 +86,8 @@ Zadanie do domu
    * ![ip route show](https://i.imgur.com/wEYsprN.png)
    * ``ip route add default via 10.0.10.1 dev enp0s8``
    ![jw](https://i.imgur.com/b0ZXZMw.png)
-   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * ``ping 172.16.100.10 + ping 10.0.10.10``
+   ![ping](https://i.imgur.com/R4d1FYf.png)
    * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
    * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
    * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
