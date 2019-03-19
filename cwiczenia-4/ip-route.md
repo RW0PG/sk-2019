@@ -27,9 +27,9 @@ Zadanie
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem,
    
+   ```
    tutorial step by step:
-   
-   
+  
    ip addr add 172.16.100.10/24 dev enp0s3
    
    ip addr add 10.0.10.10/24 dev enp0s3
@@ -57,7 +57,7 @@ Zadanie
    cat /proc/sys/net/ipv4/ip_forward
    
    echo 1 > cat /proc/sys/net/ipv4/ip_forward
-   
+   ```
    
    
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
