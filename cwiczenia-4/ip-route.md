@@ -19,6 +19,11 @@ ip
 |               |   ``ip route get``             | sprawdzenie gdzie leci dany pakiet|
 |   ``link``   |   ``ip link set interfejs up/down`` | podniesienie/wyłączenie interfejsu|
 
+**Włączenie port forwardingu w kernelu (w debianie domyślnie 0):
+cat /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv4/ip_forward
+cat /proc/sys/net/ipv4/ip_forward (powinno zwrócić 1)**
+
    ```
    tutorial step by step:
   
