@@ -17,6 +17,7 @@ ip
 |               |   ``ip route add/del``             | dodanie/usunięcie do tablicy routingu/usun |
 |               |   ``ip route show``             | wyświetlenie tablicy routingu |
 |               |   ``ip route get``             | sprawdzenie gdzie leci dany pakiet|
+|   ``link``   |   ``ip link set interfejs up/down`` | podniesienie/wyłączenie interfejsu|
 
    ```
    tutorial step by step:
