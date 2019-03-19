@@ -76,7 +76,7 @@ Zadanie do domu
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
    Konfiguracja debiana i centosa:
-   * Utworzenie dwóch sieci nat o odpowiednich adresach - 172.168.10.0/24 oraz 10.0.10.0/24
+   * Utworzenie dwóch sieci NAT o odpowiednich adresach - ``172.168.10.0/24`` oraz ``10.0.10.0/24``
    * ``ip addr add 172.16.100.10/24 dev enp0s3``-> centos
    * ``ip addr add 10.0.10.10/24 dev enp0s3`` -> debian
    * ``ip addr add 172.16.100.1/24 dev enp0s3`` + ``ip addr add 10.0.10.1/24 dev enp0s8``-> router debian
@@ -88,8 +88,8 @@ Zadanie do domu
    ![jw](https://i.imgur.com/b0ZXZMw.png)
    * ``ping 172.16.100.10 + ping 10.0.10.10``
    * ![ping](https://i.imgur.com/R4d1FYf.png)
-   * ``cd http-chat/server`` -> ``python httpchat.py`` 
-   * `` curl -X post -d '{"text" : "elo"}' http://{172.16.100.1}:8888/chat`` + `` curl -X post -d '{"text" : "elo debian here"}' http://{172.16.100.1}:8888/chat``
+   * ``cd http-chat/server`` -> ``python httpchat.py`` -> uruchomienie czatu
+   * `` curl -X post -d '{"text" : "elo"}' http://{172.16.100.1}:8888/chat`` + `` curl -X post -d '{"text" : "elo debian here"}' http://{172.16.100.1}:8888/chat`` - komunikacja dwóch komputerów przy pomocy routera
    ![komunikacja dwoch komputerow przy pomocy routera](https://i.imgur.com/UkpMmeE.png)
    
    
