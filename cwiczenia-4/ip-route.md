@@ -97,7 +97,5 @@ Zadanie do domu
    ![komunikacja dwoch komputerow przy pomocy routera](https://i.imgur.com/UkpMmeE.png)
    
    
-  
-  Obraz - > tlk.io/sk-2019
   root; 123qwe
 
