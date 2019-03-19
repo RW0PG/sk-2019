@@ -18,15 +18,6 @@ ip
 |               |   ``ip route show``             | pokaz tablice routingu |
 |               |   ``ip route get``             | pokaz gdzie leci pakiet|
 
-
-Zadanie
-------------
-
-![zadanie 4](cwiczenia4.svg)
-
-1.
-   * Przygotuj konfigurację sieci zgodnie z powyższym diagramem,
-   
    ```
    tutorial step by step:
   
@@ -58,8 +49,14 @@ Zadanie
    
    echo 1 > cat /proc/sys/net/ipv4/ip_forward
    ```
-   
-   
+
+Zadanie
+------------
+
+![zadanie 4](cwiczenia4.svg)
+
+1.
+   * Przygotuj konfigurację sieci zgodnie z powyższym diagramem,
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać
 2. Przygotuj konfigurację tak aby została załadowana poprawnie po ponownym uruchomieniu systemu
