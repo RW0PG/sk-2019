@@ -14,9 +14,9 @@ ip
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
-|               |   ``ip route add/del``             | dodaj do tablicy routingu/usun |
-|               |   ``ip route show``             | pokaz tablice routingu |
-|               |   ``ip route get``             | pokaz gdzie leci pakiet|
+|               |   ``ip route add/del``             | dodanie/usunięcie do tablicy routingu/usun |
+|               |   ``ip route show``             | wyświetlenie tablicy routingu |
+|               |   ``ip route get``             | sprawdzenie gdzie leci dany pakiet|
 
    ```
    tutorial step by step:
