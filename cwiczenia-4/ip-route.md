@@ -96,6 +96,6 @@ Zadanie do domu
    * `` curl -X post -d '{"text" : "elo"}' http://{172.16.100.1}:8888/chat`` + `` curl -X post -d '{"text" : "elo debian here"}' http://{172.16.100.1}:8888/chat`` - komunikacja dwóch komputerów przy pomocy routera
    ![komunikacja dwoch komputerow przy pomocy routera](https://i.imgur.com/UkpMmeE.png)
    
-   
-  root; 123qwe
-
+   ```
+  > root; 123qwe
+   ```
