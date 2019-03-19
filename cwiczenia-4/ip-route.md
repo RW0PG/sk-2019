@@ -20,16 +20,6 @@ ip
 |   ``link``   |   ``ip link set interfejs up/down`` | podniesienie/wyłączenie interfejsu|
 |   ``addr``   |   ``add/del/show`` |wszystko co potrzebne do zabawy adresami interfejsów|
 
-**
-Włączenie port forwardingu w kernelu (w debianie domyślnie 0):
-
-cat /proc/sys/net/ipv4/ip_forward
-
-echo 1 > /proc/sys/net/ipv4/ip_forward
-
-cat /proc/sys/net/ipv4/ip_forward (powinno zwrócić 1)
-**
-
    ```
    tutorial step by step:
   
@@ -57,9 +47,13 @@ cat /proc/sys/net/ipv4/ip_forward (powinno zwrócić 1)
    
    cat /etc/sysctl.conf
    
+   Włączenie port forwardingu w kernelu (w debianie domyślnie 0):
+
    cat /proc/sys/net/ipv4/ip_forward
-   
-   echo 1 > cat /proc/sys/net/ipv4/ip_forward
+
+   echo 1 > /proc/sys/net/ipv4/ip_forward
+
+   cat /proc/sys/net/ipv4/ip_forward (powinno zwrócić 1)
    ```
 
 Zadanie
