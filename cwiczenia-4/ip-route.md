@@ -18,6 +18,7 @@ ip
 |               |   ``ip route show``             | wyświetlenie tablicy routingu |
 |               |   ``ip route get``             | sprawdzenie gdzie leci dany pakiet|
 |   ``link``   |   ``ip link set interfejs up/down`` | podniesienie/wyłączenie interfejsu|
+|   ``addr``   |   ``add/del/show`` |wszystko co potrzebne do zabawy adresami interfejsów|
 
 **Włączenie port forwardingu w kernelu (w debianie domyślnie 0):
 cat /proc/sys/net/ipv4/ip_forward
