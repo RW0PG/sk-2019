@@ -88,8 +88,9 @@ Zadanie do domu
    ![jw](https://i.imgur.com/b0ZXZMw.png)
    * ``ping 172.16.100.10 + ping 10.0.10.10``
    * ![ping](https://i.imgur.com/R4d1FYf.png)
-   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
-   * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
+   * ``cd http-chat/server`` -> ``python httpchat.py`` 
+   * `` curl -X post -d '{"text" : "elo"}' http://{172.16.100.1}:8888/chat`` + `` curl -X post -d '{"text" : "elo debian here"}' http://{172.16.100.1}:8888/chat``
+   ![komunikacja dwoch komputerow przy pomocy routera](https://i.imgur.com/UkpMmeE.png)
    
    
   
