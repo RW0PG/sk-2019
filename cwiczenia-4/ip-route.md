@@ -97,5 +97,5 @@ Zadanie do domu
    ![komunikacja dwoch komputerow przy pomocy routera](https://i.imgur.com/UkpMmeE.png)
    
    ```
-  > root; 123qwe
+  root; 123qwe
    ```
