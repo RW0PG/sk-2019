@@ -85,10 +85,10 @@ Zadanie do domu
    * ``ip addr add 172.16.100.1/24 dev enp0s3`` + ``ip addr add 10.0.10.1/24 dev enp0s8``-> router debian
    ![konfiguracja adresów IP](https://i.imgur.com/YiN5JJJ.png)
    * ``ip link set enp0s8 up`` -> podniesienie drugiego interfejsu w routerze
+   * ``echo 1 > /proc/sys/net/ipv4/ip_forward`` - > włączenie port forwardingu w kernelu debiana
    * ``ip route add default via 10.0.10.1 dev enp0s3 (deb) + ip route add default via 172.16.100.1 (cent)``
    * ``ping 172.16.100.10 (deb) + ping 10.0.10.10 (cent)``
    ![ping](https://i.imgur.com/lzG5xJj.png)
-   * ``echo 1 > /proc/sys/net/ipv4/ip_forward`` - > włączenie port forwardingu w kernelu debiana
    * ![ip route show](https://i.imgur.com/wEYsprN.png)
    * ``ip route add default via 10.0.10.1 dev enp0s8``
    ![jw](https://i.imgur.com/b0ZXZMw.png)
