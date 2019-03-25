@@ -12,10 +12,11 @@ adresacja
 | ``PC-R-2``| enp0s8 |      |
 | ``PC-R-2``| enp0s9 |      |
 
-routing
 
 
 default via 172.31.16.1 dev eth0
+
+routing
 ---------------------------------------------------
 | destination | trasa | interfejs  |
 | --------- |:-------------| :---------------| 
