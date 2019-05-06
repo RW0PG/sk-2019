@@ -160,4 +160,4 @@ Zadanie
     * C – 3 000 użytkowników
     * D – 500 użytkowników
     * E – 2 użytkowników.
-    
+    *
