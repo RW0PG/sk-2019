@@ -11,6 +11,8 @@ Adres sieci
 2. AND => IP, maska
 3. Konwersja do DEC
 
+Najprosciej - bity maski - bity z adresu sieci -> dla maski /16 bierzemy druga liczbe, zamieniamiy na BIN, bierzemy druga liczbe z maski, zamieniamy na BIN, robimy na obu liczbach AND, adres IP to liczba przed zamieniona na BIN + wynik z ANDa + zera. 
+
 Adres rozgłoszeniowy (broadcast)
 -----------
 
