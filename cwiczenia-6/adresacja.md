@@ -11,7 +11,7 @@ Adres sieci
 2. AND => IP, maska
 3. Konwersja do DEC
 
-Adres rozgłoszeniowy
+Adres rozgłoszeniowy (broadcast)
 -----------
 
 1. Maska => NOT
@@ -29,7 +29,7 @@ Chcemy 7 -> 2^3 >= 7
 Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 
 
-Wyznaczenie broadcastu
+Wyznaczenie ilości hostów
 -------------------------------
 ![img](broadcast.png)
 
