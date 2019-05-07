@@ -29,6 +29,11 @@ Chcemy 7 -> 2^3 >= 7
 Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 
 
+Wyznaczenie broadcastu
+-------------------------------
+[!img](broadcast.png)
+
+
 Wprowadzenie
 ------------
 
