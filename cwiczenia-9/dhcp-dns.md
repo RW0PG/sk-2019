@@ -40,9 +40,15 @@ Zadanie
     }
     
    * systemctl start isc-dhcp-server
-   * systemctl status isc-dhcp-server (sprawdzenie czy dziala)
-   * dhclient -r enp0s3
-   * dhclient -v enp0s3
+   * systemctl status isc-dhcp-server (sprawdzenie czy dhcp dziala)
+   * dhclient -r enp0s3 - czyszczenie
+   * dhclient -v enp0s3 - przypisanie od nowa
+   * ustanowienie statycznego ip - nano /etc/dhcp/dhcpd.conf - na dole:
+   host httpchat {
+    hardware ethernet mac adress;
+    fixed-address 10.192.96.10;
+   }
+   *systemctl restart isc-dhcp-server
     
    * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
