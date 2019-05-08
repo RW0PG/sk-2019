@@ -50,7 +50,7 @@ Zadanie
    }
    *systemctl restart isc-dhcp-server
    *apt-get install dnsutils -> dig/nslookup adres
-   *``notatka 7 temat``
+   ``*notatka 7 temat``
    * echo 1 > /proc/sys/net/ipv4/ip_forward
    * iptables-t nat -A POSTROUTING -o enp0s3 -s 10.192.96.0/22 -j MASQUERADE
    * cd. /etc/hosts 
