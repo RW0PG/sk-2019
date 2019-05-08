@@ -54,7 +54,8 @@ Zadanie
    ``notatka 7 temat``
    * echo 1 > /proc/sys/net/ipv4/ip_forward
    * iptables-t nat -A POSTROUTING -o enp0s3 -s 10.192.96.0/22 -j MASQUERADE
-   * cd. /etc/hosts 
+   `cd`
+   * /etc/hosts - ustawic dns
    * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
    * Skonfiguruj usługę ``DHCP`` tak aby ``PC1`` zawsze uzyskał ten sam adres IP
