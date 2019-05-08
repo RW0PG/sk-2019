@@ -56,6 +56,9 @@ Zadanie
    * iptables-t nat -A POSTROUTING -o enp0s3 -s 10.192.96.0/22 -j MASQUERADE
    `cd`
    * /etc/hosts - ustawic dns
+   * apt-get install dnsmasq
+   ![img](https://i.imgur.com/49DMllq.png)
+   
    * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
    * Skonfiguruj usługę ``DHCP`` tak aby ``PC1`` zawsze uzyskał ten sam adres IP
