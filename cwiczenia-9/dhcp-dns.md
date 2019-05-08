@@ -24,7 +24,7 @@ Zadanie
       |   ``mask`` |   ``255.255.252.0``                |
       |   ``gateway`` |     ``{wlasciwe ip}``              |
       |   ``dns``  |  ``{wlasciwe ip}``                 |
-    * ustawic siec nat oraz nat dla obu PC  
+    * ustawic siec nat oraz nat dla serwera, nat dla komputera
     * apt-get install isc-dhcp-server
     * nano /etc/default/isc-dhcp-server
     * interfacesv4 = nazwa karty, ktora slucha
@@ -40,6 +40,9 @@ Zadanie
     }
     
    * systemctl start isc-dhcp-server
+   * systemctl status isc-dhcp-server (sprawdzenie czy dziala)
+   *dhclient -r enp0s3
+   *dhclient -v enp0s3
     
    * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
