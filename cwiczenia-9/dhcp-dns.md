@@ -49,14 +49,18 @@ Zadanie
     fixed-address 10.192.96.10;
    }
    *systemctl restart isc-dhcp-server
-    
+   *apt-get install dnsutils -> dig/nslookup adres
+   ``notatka 7 temat``
+   * echo 1 > /proc/sys/net/ipv4/ip_forward
+   * iptables-t nat -A POSTROUTING -o enp0s3 -s 10.192.96.0/22 -j MASQUERADE
+   * cd. /etc/hosts 
    * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
    * Skonfiguruj usługę ``DHCP`` tak aby ``PC1`` zawsze uzyskał ten sam adres IP
    * Dokonaj odpowiedniej modyfikacji konfiguracji tak aby z dowolnego komputera w sieci 
    przy komunikacji z adresem ``chat.mydomain.local`` został rozwinięty na adres komputera ``PC1``
    * Uruchom usługę ``http-chat`` na komputerze ``PC1``
-   * Przetestuj działanie aplikacji ``http-chat`` z ``PC2`` lub innym nowo podłączonym do sieci
+   * Przetestuj działanie aplikacji ``http-chat`` z ``PC2`` lub innym nowo podłączonym do sieci\
  
    
 
