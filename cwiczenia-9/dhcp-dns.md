@@ -57,7 +57,12 @@ Zadanie
    `cd`
    * /etc/hosts - ustawic dns
    * apt-get install dnsmasq
+   
+   
+   
    ![img](https://i.imgur.com/49DMllq.png)
+   
+   
    
    * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
