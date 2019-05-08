@@ -20,11 +20,28 @@ Zadanie
       -------------------------
       | klucz    |  wartość   |
       | ------------- |:-------------|  
-      |   ``ip``   |   ``10.192.192.0 - 10.192.200.0``  |
+      |   ``ip``   |   ``10.192.192.0 - 10.192.200.0``  | - ip addr add, ip link set 
       |   ``mask`` |   ``255.255.252.0``                |
       |   ``gateway`` |     ``{wlasciwe ip}``              |
       |   ``dns``  |  ``{wlasciwe ip}``                 |
-     
+    * ustawic siec nat oraz nat dla obu PC  
+    * apt-get install isc-dhcp-server
+    * nano /etc/default/isc-dhcp-server
+    * interfacesv4 = nazwa karty, ktora slucha
+    * nano /etc/dhcp/dhcpd.conf
+    * zjechac na dol:
+    subnet 10.192.96.0 netmask 255.255.252.0 {
+    
+    range 10.192.98.0 10.192.98.0;
+    
+    option routers 10.192.96.1;
+    
+    option domain-name-servers 10.192.96.1, 1.1.1.1;
+    }
+    
+   * systemctl start isc-dhcp-server
+    
+   * ---------------
    * Uruchom usługe ``dnsmasq`` dla ``PC0``
    * Skonfiguruj usługę ``DHCP`` tak aby ``PC1`` zawsze uzyskał ten sam adres IP
    * Dokonaj odpowiedniej modyfikacji konfiguracji tak aby z dowolnego komputera w sieci 
