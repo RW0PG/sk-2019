@@ -24,34 +24,32 @@ Zadanie
       |   ``mask`` |   ``255.255.252.0``                |
       |   ``gateway`` |     ``{wlasciwe ip}``              |
       |   ``dns``  |  ``{wlasciwe ip}``                 |
+    
+   ```
     * ustawic siec nat oraz nat dla serwera, siec nat dla komputera
     * apt-get install isc-dhcp-server
     * nano /etc/default/isc-dhcp-server
     * interfacesv4 = nazwa karty, ktora slucha
     * nano /etc/dhcp/dhcpd.conf
     * zjechac na dol:
-    subnet 10.192.96.0 netmask 255.255.252.0 {
-    
-    range 10.192.98.0 10.192.98.0;
-    
-    option routers 10.192.96.1;
-    
-    option domain-name-servers 10.192.96.1, 1.1.1.1;
-    }
-    
-   * systemctl start isc-dhcp-server
-   * systemctl status isc-dhcp-server (sprawdzenie czy dhcp dziala)
-   * dhclient -r enp0s3 - czyszczenie
-   * dhclient -v enp0s3 - przypisanie od nowa
-   * ustanowienie statycznego ip - nano /etc/dhcp/dhcpd.conf - na dole:
+      * subnet 10.192.96.0 netmask 255.255.252.0 {
+      * range 10.192.98.0 10.192.98.0;
+      * option routers 10.192.96.1;
+      * option domain-name-servers 10.192.96.1, 1.1.1.1;}
+    * systemctl start isc-dhcp-server
+    * systemctl status isc-dhcp-server (sprawdzenie czy dhcp dziala)
+    * dhclient -r enp0s3 - czyszczenie
+    * dhclient -v enp0s3 - przypisanie od nowa
+    * ustanowienie statycznego ip - nano /etc/dhcp/dhcpd.conf - na dole:
    host httpchat {
     hardware ethernet mac adress;
     fixed-address 10.192.96.10;
    }
    *systemctl restart isc-dhcp-server
    *apt-get install dnsutils -> dig/nslookup adres
+   ```
    
-   ``notatka 7 temat``
+   ``notatka do 7 tematu``
    * echo 1 > /proc/sys/net/ipv4/ip_forward
    * iptables-t nat -A POSTROUTING -o enp0s3 -s 10.192.96.0/22 -j MASQUERADE
    `cd`
@@ -61,7 +59,7 @@ Zadanie
    
    
    ![img](https://i.imgur.com/49DMllq.png)
-   
+
    
    
    * ---------------
@@ -82,7 +80,7 @@ Przydatne polecenia
 | ------------- |:-------------| :---------------| 
 |   ``nslookup``    | ``nslookup uek.krakow.pl`` | kwerenda do serwera dns |
 |   ``dig``         | ``dig uek.krakow.pl``      | kwerenda do serwera dns |
-|                   |                            | wyczyść lokalny cache dns |   
+|    /etc/init.d/networking restart | | wyczyść lokalny cache dns |   
 
 
 Zadanie do domu
