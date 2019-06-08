@@ -49,17 +49,16 @@ Zadanie
    *apt-get install dnsutils -> dig/nslookup adres
    ```
    
-   ``notatka do 7 tematu``
+   notatka do 7 tematu
+   ```
    * echo 1 > /proc/sys/net/ipv4/ip_forward
    * iptables-t nat -A POSTROUTING -o enp0s3 -s 10.192.96.0/22 -j MASQUERADE
    `cd`
    * /etc/hosts - ustawic dns
    * apt-get install dnsmasq
-   
-   
-   
+   ```
    ![img](https://i.imgur.com/49DMllq.png)
-
+ 
    
    
    * ---------------
@@ -80,7 +79,7 @@ Przydatne polecenia
 | ------------- |:-------------| :---------------| 
 |   ``nslookup``    | ``nslookup uek.krakow.pl`` | kwerenda do serwera dns |
 |   ``dig``         | ``dig uek.krakow.pl``      | kwerenda do serwera dns |
-|    /etc/init.d/networking restart | | wyczyść lokalny cache dns |   
+|    ``/etc/init.d/networking restart`` | | wyczyść lokalny cache dns |   
 
 
 Zadanie do domu
