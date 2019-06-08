@@ -40,4 +40,5 @@ Zadanie do domu
     * ROUTER
     * SWITCH
     * PC
-  ![net_img2](network_diag2.svg)
+    
+  <a href="network_diag2.svg"><img src="network_diag2.svg" width="600" height="600"/></a>
