@@ -96,12 +96,14 @@ Kolejne reguły zawsze trzeba zapisywać ręcznie używając komendy - iptables-
   * Przekierowanie portów ip:port1 -> ip2:port2
 
 ### Zadanie 
-
-Tutorial:
-1. * PC0 trzy karty - Sieć NAT, NAT, Host Only
-2. * Podniesienie interfejsów - ip link set nazwa up 
-3. * 
-
+```
+Notki z zajęć:
+1. PC0 trzy karty - Sieć NAT, NAT, Host Only, PC1 jako udostępnianie usług
+2. Podniesienie interfejsów - ip link set nazwa up 
+3. iptables -S - wyświetlenie inp, outp, forw, musi być accept na inpucie. SSH musi być włączone. 
+4. iptables -P INPUT DROP, iptables -A INPUT -p tcp --dport 22 -s adres -j ACCEPT
+5. Zapis reguły jw. 
+```
 
 1.
    * Przygotuj konfigurację sieci gdzie ``PC0`` pełni rolę bramy NAT
