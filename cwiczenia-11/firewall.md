@@ -100,6 +100,7 @@ Kolejne reguły zawsze trzeba zapisywać ręcznie używając komendy - iptables-
 Notki z zajęć:
 1. PC0 trzy karty - Sieć NAT, NAT, Host Only, PC1 jako udostępnianie usług
 2. Podniesienie interfejsów - ip link set nazwa up 
+Przydatna rzecz - https://en.wikipedia.org/wiki/Iptables
 3. iptables -S - wyświetlenie inp, outp, forw, musi być accept na inpucie. SSH musi być włączone. 
 4. iptables -P INPUT DROP, iptables -A INPUT -p tcp --dport 22 -s adres -j ACCEPT
 5. Zapis reguły jw. 
