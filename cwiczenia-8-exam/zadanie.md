@@ -24,10 +24,10 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 | ``172.22.160.0`` | ``172.22.160.1 - 172.22.161.254``  | ``172.22.161.255`` |
 ----------------------------------------------------------
 ## 3. Konfiguracja VirtualBoxa: 
-### Utworzenie sieci dla 500 hostów:
-![img1](https://i.imgur.com/vBv2OIk.png)
-### Utworzenie sieci dla 5000 hostów:
-![img2](https://i.imgur.com/Laz1E9C.png)
+### Utworzenie sieci dla 500 hostów (LAN1):
+![img1](https://i.imgur.com/Q07nRUF.png)
+### Utworzenie sieci dla 5000 hostów (LAN2):
+![img2](https://i.imgur.com/4RAEzjw.png)
 
 ## 4. Konfiguracja sprzętu:
 ### 4.1 Dodanie adresów IP:
