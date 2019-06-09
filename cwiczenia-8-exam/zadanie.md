@@ -50,7 +50,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 #### PC2:
 ``up ip route add default via 172.22.128.1``
 
-### (Opcjonalne) DNS: 
+### 3.5 (Opcjonalne) DNS: 
 #### PC0: 
 
 ``nano /etc/hosts``
