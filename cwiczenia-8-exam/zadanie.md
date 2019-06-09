@@ -52,4 +52,4 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ## XX. Diagram:
 ![imgx](zadanie1_diagram.svg)
 
-s
+
