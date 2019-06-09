@@ -96,5 +96,5 @@
 
 ----------------------------------------------------------
 ## XX. Diagram:
-![diag](zadanie2_diag.png)
+![diag](zadanie2_diagram.png)
 
