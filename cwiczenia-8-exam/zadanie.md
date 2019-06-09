@@ -36,6 +36,10 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 
 ### 3.2 Uruchomienie routingu na PC0: 
 ``echo 1 > /proc/sys/net/ipv4/ip_forward``
+#### włączenie port forwardingu na stałe (skasować komentarz):
+``nano /etc/sysctl.conf``
+
+![img](https://i.imgur.com/ROleXDI.png)
 
 ### 3.3 Reguła masquarade dla PC0: 
 #### LAN1:
@@ -59,9 +63,9 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ### 3.5 (Opcjonalne) DNS: 
 #### PC1 i PC2: 
 
-``nano /etc/network/interfaces``
+``nano /etc/resolv.conf``
 
-``dns-nameserver 8.8.8.8``
+``nameserver 8.8.8.8``
 
 ----------------------------------------------------------
 ## XX. Diagram:
