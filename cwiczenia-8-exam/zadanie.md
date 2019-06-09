@@ -37,7 +37,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ### 3.2 Uruchomienie routingu na PC0: 
 ``echo 1 > /proc/sys/net/ipv4/ip_forward``
 #### włączenie port forwardingu na stałe (skasować komentarz):
-``nano /etc/sysctl.conf``
+``nano /etc/sysctl.d/99-sysctl.conf``
 
 ![img](https://i.imgur.com/ROleXDI.png)
 
