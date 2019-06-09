@@ -27,7 +27,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ### 3.1 Dodanie adresów IP:
 ``nano/etc/network/interfaces``
 #### PC0:
-![img1](https://i.imgur.com/3IUtIS3.png)
+![img1](https://i.imgur.com/58VaQDw.png)
 #### PC1: 
 ![img2](https://i.imgur.com/jb4Mo9t.png)
 #### PC2: 
