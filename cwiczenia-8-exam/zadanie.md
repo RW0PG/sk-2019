@@ -25,7 +25,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ----------------------------------------------------------
 ## 3. Konfiguracja VirtualBoxa: 
 ### Utworzenie sieci dla 500 hostów (LAN1):
-![img1](https://i.imgur.com/sostBia.png)
+![img1](https://i.imgur.com/PJV8KjG.png)
 ### Utworzenie sieci dla 5000 hostów (LAN2):
 ![img2](https://i.imgur.com/4RAEzjw.png)
 
