@@ -24,7 +24,25 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 | ``172.22.160.0`` | ``172.22.160.1 - 172.22.161.254``  | ``172.22.161.255`` |
 ----------------------------------------------------------
 ## 3. Konfiguracja sprzętu:
-### PC0: 
-    * 
+### 3.1 Dodanie adresów IP:
+``nano/etc/network/interfaces``
+#### PC0:
+![img1](https://i.imgur.com/3IUtIS3.png)
+#### PC1: 
+![img2](https://i.imgur.com/jb4Mo9t.png)
+#### PC2: 
+![img3](https://i.imgur.com/hs1PkSI.png)
+
+### 3.2 Uruchomienie routingu na PC0: 
+``echo 1 > /proc/sys/net/ipv4/ip_forward``
+
+### 3.3 Ustalenie routingu:
+#### PC1: 
+``up ip route add default via 172.22.160.1``
+#### PC2:
+``up ip route add default via 172.22.128.1``
+
+----------------------------------------------------------
 ## XX. Diagram:
-![img2](zadanie1_diagram.svg)
+![imgx](zadanie1_diagram.svg)
+
