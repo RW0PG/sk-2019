@@ -42,6 +42,13 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ``iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE``
 #### LAN2: 
 ``iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE``
+#### W celu zapisania: 
+  * ``iptables-save > /etc/iptables.rules``
+  * ``nano /etc/network/if-pre-up.d/iptables`` -> ``/sbin/iptables-restore < /etc/iptables.up.rules``
+  * ``chmod +x /etc/network/if-pre-up.d/iptables``
+  *  źródło - [wiki debian](https://wiki.debian.org/iptables) 
+
+
  
 ### 3.4 Ustalenie routingu:
 #### PC1: 
