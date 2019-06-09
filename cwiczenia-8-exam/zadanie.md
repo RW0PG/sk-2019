@@ -36,7 +36,13 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ### 3.2 Uruchomienie routingu na PC0: 
 ``echo 1 > /proc/sys/net/ipv4/ip_forward``
 
-### 3.3 Ustalenie routingu:
+### 3.3 Reguła masquarade dla PC0: 
+
+  ``iptables -t nat -A POSTROUTING -s 172.22.128.0/23 -o enp0s3 -j MASQUERADE``
+  
+  ``iptables -t nat -A POSTROUTING -s 172.22.160.0/19 -o enp0s3 -j MASQUERADE``
+
+### 3.4 Ustalenie routingu:
 #### PC1: 
 ``up ip route add default via 172.22.160.1``
 #### PC2:
