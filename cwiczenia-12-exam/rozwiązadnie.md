@@ -86,5 +86,5 @@ odkomentować net.ipv4.ip_forward=1
 
 ----------------------------------------------------------
 ## XX. Diagram:
-![diag](zadanie2_diagram.png)
+![diag](zadanie2_diagr.png)
 
