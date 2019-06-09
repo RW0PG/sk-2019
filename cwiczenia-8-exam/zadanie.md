@@ -23,14 +23,9 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 | ``172.22.128.0`` | ``172.22.128.1 - 172.22.159.254`` | ``172.22.159.255`` |
 | ``172.22.160.0`` | ``172.22.160.1 - 172.22.161.254``  | ``172.22.161.255`` |
 ----------------------------------------------------------
-## 3. Konfiguracja VirtualBoxa: 
-### Utworzenie sieci dla 500 hostów (LAN1):
-![img1](https://i.imgur.com/PJV8KjG.png)
-### Utworzenie sieci dla 5000 hostów (LAN2):
-![img2](https://i.imgur.com/4RAEzjw.png)
 
-## 4. Konfiguracja sprzętu:
-### 4.1 Dodanie adresów IP:
+## 3. Konfiguracja sprzętu:
+### 3.1 Dodanie adresów IP:
 ``nano/etc/network/interfaces``
 #### PC0:
 ![img3](https://i.imgur.com/58VaQDw.png)
@@ -39,24 +34,22 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 #### PC2: 
 ![img5](https://i.imgur.com/hs1PkSI.png)
 
-### 4.2 Uruchomienie routingu na PC0: 
+### 3.2 Uruchomienie routingu na PC0: 
 ``echo 1 > /proc/sys/net/ipv4/ip_forward``
 
-### 4.3 Reguła masquarade dla PC0: 
+### 3.3 Reguła masquarade dla PC0: 
 #### LAN1:
 ``iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE``
 #### LAN2: 
 ``iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE``
  
- 
-
-### 4.4 Ustalenie routingu:
+### 3.4 Ustalenie routingu:
 #### PC1: 
 ``up ip route add default via 172.22.160.1``
 #### PC2:
 ``up ip route add default via 172.22.128.1``
 
-### 4.5 (Opcjonalne) DNS: 
+### 3.5 (Opcjonalne) DNS: 
 #### PC0: 
 
 ``nano /etc/hosts``
