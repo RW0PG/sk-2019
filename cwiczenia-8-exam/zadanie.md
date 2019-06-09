@@ -27,4 +27,4 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ### PC0: 
     * 
 ## XX. Diagram:
-![img](zadanie1_diag.svg)
+
