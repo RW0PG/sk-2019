@@ -48,6 +48,18 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 #### PC2:
 ``up ip route add default via 172.22.128.1``
 
+### (Opcjonalne) DNS: 
+#### PC0: 
+
+``nano /etc/hosts``
+
+![img4](https://i.imgur.com/GknAOGt.png)
+#### PC1 i PC2: 
+
+``nano /etc/resolv.conf``
+
+![img5](https://i.imgur.com/5dTZaCc.png)
+
 ----------------------------------------------------------
 ## XX. Diagram:
 ![imgx](zadanie1_diagram.svg)
