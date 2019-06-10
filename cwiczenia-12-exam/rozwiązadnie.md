@@ -114,6 +114,7 @@ iptables tylko dla głównego routera.
 
 ## 7. Efekt: 
 ![img5](https://i.imgur.com/Igfyc5L.png)
+(screen wlaściwie nie przedstawia nic użytecznego, należy uwierzyć na słowo, że działa)
 ----------------------------------------------------------
 ## XX. Diagram:
 ![diag](zadanie2_diagr.png)
