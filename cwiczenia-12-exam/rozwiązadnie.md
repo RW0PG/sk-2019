@@ -101,9 +101,13 @@ R0, R1, R2, R3
 
 ## 6. Iptables
 iptables tylko dla głównego routera. 
+
 ``iptables -t nat -A POSTROUTING -s 188.156.220.0/29 -o enp0s3 -j MASQUERADE``
+
 ``iptables -t nat -A POSTROUTING -s 188.156.221.0/29 -o enp0s3 -j MASQUERADE``
+
 ``iptables -t nat -A POSTROUTING -s 188.156.222.0/29 -o enp0s3 -j MASQUERADE``
+
 ``iptables -t nat -A POSTROUTING -s 188.156.223.0/22 -o enp0s3 -j MASQUERADE``
 
 
