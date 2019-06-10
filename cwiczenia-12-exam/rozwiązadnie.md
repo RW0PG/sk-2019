@@ -85,15 +85,15 @@ R0, R1, R2, R3
   ``nano /etc/default/isc-dhcp-server``
   
   ``odkomentować config DHCPv4 i dopisać inferfejsy na dole``
-  
+  ![img2](https://i.imgur.com/7Pa9cTL.png)
    
    ``nano /etc/dhcp/dhcpd.conf`` -> konfiguracja sieci. Proces należy powtórzyć dla każdego labolatorium.
 
- ![img2](https://i.imgur.com/C4FrplK.png)
+ ![img3](https://i.imgur.com/C4FrplK.png)
   
     
  ### R0:
- ![img3](https://i.imgur.com/ygI9yid.png)
+ ![img4](https://i.imgur.com/ygI9yid.png)
 
 
 ----------------------------------------------------------
