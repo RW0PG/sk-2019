@@ -104,8 +104,8 @@ odkomentować net.ipv4.ip_forward=1
     dhclient -r enp0s - czyszczenie
     
     dhclient -v enp0s - przypisanie od nowa 
- ### R0 WIFI
-
+ ### R0:
+ ![img3](https://i.imgur.com/ajq0HMC.png)
 
 
 ----------------------------------------------------------
