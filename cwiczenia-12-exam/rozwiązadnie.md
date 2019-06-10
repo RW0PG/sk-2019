@@ -89,7 +89,7 @@ R0, R1, R2, R3
    
    ``nano /etc/dhcp/dhcpd.conf`` -> konfiguracja sieci. Proces należy powtórzyć dla każdego labolatorium.
 
-   ![img2](https://i.imgur.com/kvQu7Rb.png)
+
   
     
  ### R0:
