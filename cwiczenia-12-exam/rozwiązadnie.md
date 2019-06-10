@@ -100,17 +100,13 @@ R0, R1, R2, R3
   ``up ip route add default via 172.0.9.62; 13.62; itd``
 
 ## 6. Iptables
+iptables tylko dla głównego routera. 
+``iptables -t nat -A POSTROUTING -s 188.156.220.0/29 -o enp0s3 -j MASQUERADE``
+``iptables -t nat -A POSTROUTING -s 188.156.221.0/29 -o enp0s3 -j MASQUERADE``
+``iptables -t nat -A POSTROUTING -s 188.156.222.0/29 -o enp0s3 -j MASQUERADE``
+``iptables -t nat -A POSTROUTING -s 188.156.223.0/22 -o enp0s3 -j MASQUERADE``
 
-``iptables -t nat -A POSTROUTING -s 188.156.220.0/29 -o enp0s8 -j MASQUERADE``
 
-221.0/29 -o enp0s9
-222.0/29 -o enp0s10
-224.0/22 -o enp0s11
-
-
-``iptables -t nat -A POSTROUTING -s 172.0.9.0/26 -o enp0s8 -j MASQUERADE itd``
-
-``ipatables-save > /etc/iptables.up.rules``
 
 ## 7. Efekt: 
 ![img5](https://i.imgur.com/Igfyc5L.png)
