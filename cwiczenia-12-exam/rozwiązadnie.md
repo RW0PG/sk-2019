@@ -78,7 +78,7 @@
 R0, R1, R2, R3
 
 ``nano /etc/sysctl.d/99-sysctl.conf``
-odkomentować net.ipv4.ip_forward=1
+``odkomentować net.ipv4.ip_forward=1``
 
 ## 5. DHCP:
 ### R1, R2, R3, dla R0 tylko enp0s11:
@@ -91,19 +91,8 @@ odkomentować net.ipv4.ip_forward=1
    ``nano /etc/dhcp/dhcpd.conf`` -> konfiguracja sieci. Proces należy powtórzyć dla każdego labolatorium.
 
    ![img2](https://i.imgur.com/kvQu7Rb.png)
-   
-
-    
-    
-    systemctl restart isc-dhcp-server
-    
-    systemctl start isc-dhcp-server
   
-    systemctl status isc-dhcp-server (sprawdzenie czy dhcp dziala)
     
-    dhclient -r enp0s - czyszczenie
-    
-    dhclient -v enp0s - przypisanie od nowa 
  ### R0:
  ![img3](https://i.imgur.com/ajq0HMC.png)
 
