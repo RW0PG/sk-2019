@@ -86,7 +86,6 @@ R0, R1, R2, R3
   
   ``odkomentować config DHCPv4 i dopisać inferfejsy na dole``
   
-  ![img](https://i.imgur.com/638gPhC.png)
    
    ``nano /etc/dhcp/dhcpd.conf`` -> konfiguracja sieci. Proces należy powtórzyć dla każdego labolatorium.
 
