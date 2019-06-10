@@ -2,7 +2,9 @@
     255.255.255.248 /29 - maska dla sieci na każdym z trzech pięter 
     255.255.254.192 /29 - maska dla każdego laboratorium (35)
     255.255.252.0 /22 - maska dla wifi (800)
+    
  ----------------------------------------------------------
+ 
  ## 2. Ustalenie adresu sieci dla adresu 188.156.220.160:
  
  ### R0:
@@ -25,7 +27,9 @@
      S.202 - 172.0.202.0/26
      S.203 - 172.0.203.0/26
      S.204 - 172.0.204.0/26
+     
   ----------------------------------------------------------
+  
   ## 3. Dodanie adresów IP:
   
   ### R0:
@@ -80,6 +84,8 @@ R0, R1, R2, R3
 ``nano /etc/sysctl.d/99-sysctl.conf``
 ``odkomentować net.ipv4.ip_forward=1``
 
+----------------------------------------------------------
+
 ## 5. DHCP:
 ### R1, R2, R3, dla R0 tylko enp0s11:
   ``nano /etc/default/isc-dhcp-server``
@@ -98,6 +104,8 @@ R0, R1, R2, R3
 ## 5. Routing
   ``up ip route add default via 188.156.220.1; 221.1; 222.1; 223.1``
   ``up ip route add default via 172.0.9.62; 13.62; itd``
+  
+----------------------------------------------------------
 
 ## 6. Iptables
 iptables tylko dla głównego routera. 
@@ -110,11 +118,12 @@ iptables tylko dla głównego routera.
 
 ``iptables -t nat -A POSTROUTING -s 188.156.223.0/22 -o enp0s3 -j MASQUERADE``
 
-
+----------------------------------------------------------
 
 ## 7. Efekt: 
 ![img5](https://i.imgur.com/Igfyc5L.png)
-(screen wlaściwie nie przedstawia nic użytecznego, należy uwierzyć na słowo, że działa)
+###### (screen wlaściwie nie przedstawia nic użytecznego, należy uwierzyć na słowo, że działa)
+
 ----------------------------------------------------------
 ## XX. Diagram:
 ![diag](zadanie2_diagr.png)
