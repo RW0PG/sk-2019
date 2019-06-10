@@ -14,7 +14,7 @@
      S.009 - 172.0.9.0/26
      S.013 - 172.0.13.0/26
      S.014 - 1721.0.14.0/26
-     S.017 - 172.0.172.0/26
+     S.017 - 172.0.17.0/26
   ### R2: 
      S.115 - 172.0.115.0/26
      S.116 - 172.0.116.0/26
@@ -80,7 +80,31 @@ R0, R1, R2, R3
 ``nano /etc/sysctl.d/99-sysctl.conf``
 odkomentować net.ipv4.ip_forward=1
 
-## 5. Routing: 
+## 5. DHCP:
+### R1, R2, R3, dla R0 tylko enp0s11:
+  ``nano /etc/default/isc-dhcp-server``
+  
+  ``odkomentować config DHCPv4 i dopisać inferfejsy na dole``
+  
+  ![img](https://i.imgur.com/638gPhC.png)
+   
+   ``nano /etc/dhcp/dhcpd.conf`` -> konfiguracja sieci. Proces należy powtórzyć dla każdego labolatorium.
+
+   ![img2](https://i.imgur.com/kvQu7Rb.png)
+   
+
+    
+    
+    systemctl restart isc-dhcp-server
+    
+    systemctl start isc-dhcp-server
+  
+    systemctl status isc-dhcp-server (sprawdzenie czy dhcp dziala)
+    
+    dhclient -r enp0s - czyszczenie
+    
+    dhclient -v enp0s - przypisanie od nowa 
+ ### R0 WIFI
 
 
 
