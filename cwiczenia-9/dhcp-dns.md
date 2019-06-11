@@ -88,4 +88,6 @@ Zadanie do domu
 1. Przygotuj system z trybem graficznym, oraz zainstalowanym programem 
 ``wireshark`` https://www.wireshark.org
 2. Przetestuj komunikację z ``http-chat`` dla nowo zainstalowanego systemu
+
+Zrobiliśmy dokładnie to samo na następnych zajęciach labolatoryjnych, nie ma sensu tego tutaj uzupełniać. 
   
